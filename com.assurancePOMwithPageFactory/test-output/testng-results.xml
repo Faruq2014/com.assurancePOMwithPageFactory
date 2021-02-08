@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="7" total="9" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="reg Suite" duration-ms="25771" started-at="2021-02-07T21:04:02 EST" finished-at="2021-02-07T21:04:28 EST">
+    <groups>
+      <group name="regression">
+        <method signature="MousehoverLinkTest.MousehoverLinkRegression()[pri:3, instance:com.assuranceNavigationTests.MousehoverLinkTest@59e5ddf]" name="MousehoverLinkRegression" class="com.assuranceNavigationTests.MousehoverLinkTest"/>
+        <method signature="LoginTest.loginRegresationTest()[pri:6, instance:com.assuranceLoginTests.LoginTest@7e2d773b]" name="loginRegresationTest" class="com.assuranceLoginTests.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.loginRegresationTest()[pri:6, instance:com.assuranceLoginTests.LoginTest@7e2d773b]" name="loginRegresationTest" class="com.assuranceLoginTests.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="10640" started-at="2021-02-07T21:04:02 EST" finished-at="2021-02-07T21:04:13 EST">
+      <class name="com.assuranceNavigationTests.MousehoverLinkTest">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:com.assuranceNavigationTests.MousehoverLinkTest@59e5ddf]" name="OpenApp" is-config="true" duration-ms="8439" started-at="2021-02-07T21:04:02 EST" finished-at="2021-02-07T21:04:10 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="MousehoverLinkRegression()[pri:3, instance:com.assuranceNavigationTests.MousehoverLinkTest@59e5ddf]" name="MousehoverLinkRegression" duration-ms="777" started-at="2021-02-07T21:04:10 EST" finished-at="2021-02-07T21:04:11 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MousehoverLinkRegression -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.assuranceNavigationTests.MousehoverLinkTest@59e5ddf]" name="tearDown" is-config="true" duration-ms="1307" started-at="2021-02-07T21:04:11 EST" finished-at="2021-02-07T21:04:13 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.assuranceNavigationTests.MousehoverLinkTest -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="15097" started-at="2021-02-07T21:04:13 EST" finished-at="2021-02-07T21:04:28 EST">
+      <class name="com.assuranceLoginTests.LoginTest">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:com.assuranceLoginTests.LoginTest@7e2d773b]" name="OpenApp" is-config="true" duration-ms="6615" started-at="2021-02-07T21:04:13 EST" finished-at="2021-02-07T21:04:19 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="loginRegresationTest()[pri:6, instance:com.assuranceLoginTests.LoginTest@7e2d773b]" name="loginRegresationTest" duration-ms="7382" started-at="2021-02-07T21:04:19 EST" finished-at="2021-02-07T21:04:27 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginRegresationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.assuranceLoginTests.LoginTest@7e2d773b]" name="tearDown" is-config="true" duration-ms="1098" started-at="2021-02-07T21:04:27 EST" finished-at="2021-02-07T21:04:28 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.assuranceLoginTests.LoginTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- reg Suite -->
+</testng-results>
