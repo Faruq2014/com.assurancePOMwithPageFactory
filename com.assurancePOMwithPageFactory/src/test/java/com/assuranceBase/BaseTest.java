@@ -12,11 +12,11 @@ import org.testng.annotations.BeforeTest;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
-	public WebDriver driver;
+	public static  WebDriver driver;
 
 	String Browser="chrome";
 
-	@BeforeTest
+	@BeforeTest( groups= {"functional","regression","smoke"})
 	public void OpenApp() {
 
 		if (Browser.equalsIgnoreCase("chrome")) {
@@ -44,7 +44,7 @@ public class BaseTest {
 	}
 
 	
-	@AfterTest
+	@AfterTest( groups= {"functional","regression","smoke"})
 	public void tearDown() {
 		if (driver!=null) {
 			driver.quit();

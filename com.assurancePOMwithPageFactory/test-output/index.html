@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-reg_Suite">
-              <span class="suite-name border-passed">reg Suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Regression_Suite">
+              <span class="suite-name border-failed">Regression Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-reg_Suite">
-                    <span>C:\Users\Faruq\WorksSpace\Selenium\com.assurancePOMwithPageFactory\testng.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Regression_Suite">
+                    <span>C:\Users\Faruq\git\com.assurancePOMwithPageFactory\com.assurancePOMwithPageFactory\Regression.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-reg_Suite">
+                  <a href="#" class="navigator-link " panel-name="testlist-Regression_Suite">
                     <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-reg_Suite">
+                  <a href="#" class="navigator-link " panel-name="group-Regression_Suite">
                     <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-reg_Suite">
+                  <a href="#" class="navigator-link " panel-name="times-Regression_Suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-reg_Suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-Regression_Suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-reg_Suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Regression_Suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-reg_Suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-Regression_Suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,26 +91,35 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Regression_Suite" class="hide-methods failed suite-Regression_Suite"> (hide)</a> <!-- hide-methods failed suite-Regression_Suite -->
+                      <a href="#" panel-name="suite-Regression_Suite" class="show-methods failed suite-Regression_Suite"> (show)</a> <!-- show-methods failed suite-Regression_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Regression_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.assuranceLoginTests.LoginTest" hash-for-method="loginRegresationTest">loginRegresationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Regression_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-reg_Suite" class="hide-methods passed suite-reg_Suite"> (hide)</a> <!-- hide-methods passed suite-reg_Suite -->
-                      <a href="#" panel-name="suite-reg_Suite" class="show-methods passed suite-reg_Suite"> (show)</a> <!-- show-methods passed suite-reg_Suite -->
+                      <a href="#" panel-name="suite-Regression_Suite" class="hide-methods passed suite-Regression_Suite"> (hide)</a> <!-- hide-methods passed suite-Regression_Suite -->
+                      <a href="#" panel-name="suite-Regression_Suite" class="show-methods passed suite-Regression_Suite"> (show)</a> <!-- show-methods passed suite-Regression_Suite -->
                     </span>
-                    <div class="method-list-content passed suite-reg_Suite">
+                    <div class="method-list-content passed suite-Regression_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-reg_Suite" title="com.assuranceNavigationTests.MousehoverLinkTest" hash-for-method="MousehoverLinkRegression">MousehoverLinkRegression</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.assuranceNavigationTests.MousehoverLinkTest" hash-for-method="MousehoverLinkRegression">MousehoverLinkRegression</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-reg_Suite" title="com.assuranceLoginTests.LoginTest" hash-for-method="loginRegresationTest">loginRegresationTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-reg_Suite -->
+                    </div> <!-- method-list-content passed suite-Regression_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -121,8 +130,51 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-reg_Suite" class="panel reg_Suite">
-          <div class="suite-reg_Suite-class-passed">
+        <div panel-name="suite-Regression_Suite" class="panel Regression_Suite">
+          <div class="suite-Regression_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.assuranceLoginTests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginRegresationTest">
+                  </a> <!-- loginRegresationTest -->
+                  <span class="method-name">loginRegresationTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#submit1&quot;}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
+System info: host: &apos;DESKTOP-INQUNRP&apos;, ip: &apos;192.168.181.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\Faruq\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:8126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d235ea2891e2e1fc90192c64048978e9
+*** Element info: {Using=id, value=submit1}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)
+	at org.openqa.selenium.By$ById.findElement(By.java:194)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at com.assuranceLoginPages.LoginPage.submitFunctionalty(LoginPage.java:66)
+	at com.assuranceLoginPages.LoginPage.loginRegresation(LoginPage.java:76)
+	at com.assuranceLoginTests.LoginTest.loginRegresationTest(LoginTest.java:48)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-failed -->
+          <div class="suite-Regression_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.assuranceNavigationTests.MousehoverLinkTest</span>
@@ -136,69 +188,57 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-reg_Suite-class-passed -->
-          <div class="suite-reg_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.assuranceLoginTests.LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginRegresationTest">
-                  </a> <!-- loginRegresationTest -->
-                  <span class="method-name">loginRegresationTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-reg_Suite-class-passed -->
-        </div> <!-- panel reg_Suite -->
-        <div panel-name="test-xml-reg_Suite" class="panel">
+          </div> <!-- suite-Regression_Suite-class-passed -->
+        </div> <!-- panel Regression_Suite -->
+        <div panel-name="test-xml-Regression_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Faruq\WorksSpace\Selenium\com.assurancePOMwithPageFactory\testng.xml</span>
+            <span class="header-content">C:\Users\Faruq\git\com.assurancePOMwithPageFactory\com.assurancePOMwithPageFactory\Regression.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;reg Suite&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Regression Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.assuranceExtentManagerAndListeners.Listenres&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;groups&gt;
     &lt;run&gt;
-      &lt;exclude name=&quot;functional&quot;/&gt;
+      &lt;include name=&quot;regression&quot;/&gt;
     &lt;/run&gt;
   &lt;/groups&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MousehoverLinkTest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.assuranceNavigationTests.MousehoverLinkTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot;&gt;
+  &lt;/test&gt; &lt;!-- MousehoverLinkTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.assuranceLoginTests.LoginTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test1 --&gt;
-&lt;/suite&gt; &lt;!-- reg Suite --&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+&lt;/suite&gt; &lt;!-- Regression Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-reg_Suite" class="panel">
+        <div panel-name="testlist-Regression_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for reg Suite</span>
+            <span class="header-content">Tests for Regression Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">MousehoverLinkTest (1 class)</span>
               </li>
               <li>
-                <span class="test-name">Test1 (1 class)</span>
+                <span class="test-name">Login Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-reg_Suite" class="panel">
+        <div panel-name="group-Regression_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for reg Suite</span>
+            <span class="header-content">Groups for Regression Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
@@ -223,15 +263,15 @@
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-reg_Suite" class="panel">
+        <div panel-name="times-Regression_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for reg Suite</span>
+            <span class="header-content">Times for Regression Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_reg_Suite');
-function tableData_reg_Suite() {
+suiteTableInitFunctions.push('tableData_Regression_Suite');
+function tableData_Regression_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
@@ -241,31 +281,31 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginRegresationTest')
 data.setCell(0, 2, 'com.assuranceLoginTests.LoginTest')
-data.setCell(0, 3, 7382);
+data.setCell(0, 3, 14170);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'MousehoverLinkRegression')
 data.setCell(1, 2, 'com.assuranceNavigationTests.MousehoverLinkTest')
-data.setCell(1, 3, 777);
-window.suiteTableData['reg_Suite']= { tableData: data, tableDiv: 'times-div-reg_Suite'}
+data.setCell(1, 3, 252);
+window.suiteTableData['Regression_Suite']= { tableData: data, tableDiv: 'times-div-Regression_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
-              <div id="times-div-reg_Suite">
-              </div> <!-- times-div-reg_Suite -->
+              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <div id="times-div-Regression_Suite">
+              </div> <!-- times-div-Regression_Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-reg_Suite" class="panel">
+        <div panel-name="reporter-Regression_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for reg Suite</span>
+            <span class="header-content">Reporter output for Regression Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-reg_Suite" class="panel">
+        <div panel-name="ignored-methods-Regression_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">7 ignored methods</span>
+            <span class="header-content">8 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -282,6 +322,8 @@ return data;
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">myAccountLoginLinkTest</span>
                 <br/>
+                <span class="ignored-method-name">testCaseConditionalSkipException</span>
+                <br/>
                 <span class="ignored-method-name">userNameTest</span>
                 <br/>
                 <span class="ignored-method-name">switchToChildWindowTest</span>
@@ -294,7 +336,7 @@ return data;
             </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-reg_Suite" class="panel">
+        <div panel-name="chronological-Regression_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -307,26 +349,28 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">MousehoverLinkRegression</span>
-                <span class="method-start">8519 ms</span>
+                <span class="method-start">12504 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9318 ms</span>
+                <span class="method-start">12790 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.assuranceLoginTests.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">OpenApp</span>
-                <span class="method-start">10659 ms</span>
+                <span class="method-start">15052 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">loginRegresationTest</span>
-                <span class="method-start">17275 ms</span>
+                <span class="method-start">22377 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">24658 ms</span>
+                <span class="method-start">36895 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

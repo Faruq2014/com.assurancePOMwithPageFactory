@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Functional Suite">
+<groups>
+		<run>
+			<include name="functional"></include>
+		</run>
+	</groups>
+	<listeners>
+	<listener
+		class-name="com.assuranceExtentManagerAndListeners.Listenres"></listener>
+   </listeners>
+	
+	
+  <test  name="MousehoverLinkTest">
+	
+    <classes>
+      <class name="com.assuranceNavigationTests.MousehoverLinkTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="Login Test">
+	
+    <classes>
+      <class name="com.assuranceLoginTests.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

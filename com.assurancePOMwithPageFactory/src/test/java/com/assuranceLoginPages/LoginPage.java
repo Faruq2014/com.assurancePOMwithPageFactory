@@ -61,7 +61,7 @@ public class LoginPage {
 
 	}
 
-	@FindBy(id="submit")private WebElement Submit;
+	@FindBy(id="submit1")private WebElement Submit;
 	public WebElement submitFunctionalty() {       
 		Submit.click();
 		return Submit;

@@ -2,17 +2,23 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
-    <groups>
-      <run>
-        <include name="regression"/>
-      </run>
-    </groups>
     <classes>
       <class name="com.assuranceNavigationTests.MousehoverLinkTest">
         <methods>
+          <include name="OpenApp"/>
           <include name="MousehoverLinkRegression"/>
+          <include name="enhanceLoopTest"/>
+          <include name="tearDown"/>
+          <include name="lifeLineLinkstest"/>
         </methods>
       </class> <!-- com.assuranceNavigationTests.MousehoverLinkTest -->
+      <class name="com.assuranceLoginTests.LoginTest">
+        <methods>
+          <include name="OpenApp"/>
+          <include name="tearDown"/>
+          <include name="loginRegresationTest"/>
+        </methods>
+      </class> <!-- com.assuranceLoginTests.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

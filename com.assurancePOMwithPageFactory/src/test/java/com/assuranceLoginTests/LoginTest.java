@@ -1,5 +1,6 @@
 package com.assuranceLoginTests;
 
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 import com.assuranceBase.BaseTest;
@@ -29,6 +30,7 @@ public class LoginTest extends BaseTest{
 	public void passwordLinkTest() {
 		LoginPage lp = new LoginPage(driver);
 		lp.passwordLink("1233444");
+		throw new SkipException("message");
 	}
 
 	@Test(priority=5, groups= {"functional"})
@@ -36,6 +38,9 @@ public class LoginTest extends BaseTest{
 		LoginPage lp = new LoginPage(driver);
 		lp.submitFunctionalty();
 	}
+	
+
+	
 
 	@Test(priority=6, groups= {"regression","smoke"})
 	public void loginRegresationTest() {
@@ -43,7 +48,7 @@ public class LoginTest extends BaseTest{
 		lp.loginRegresation("Farid", "12345");
 	}
 	
-	
+
 
 
 }

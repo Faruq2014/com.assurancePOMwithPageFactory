@@ -4,14 +4,13 @@
   <test thread-count="5" name="Test(failed)">
     <groups>
       <run>
-        <include name="functional"/>
+        <exclude name="functional"/>
       </run>
     </groups>
     <classes>
       <class name="com.assuranceNavigationTests.MousehoverLinkTest">
         <methods>
-          <include name="enhanceLoopTest"/>
-          <include name="lifeLineLinkstest"/>
+          <include name="MousehoverLinkRegression"/>
         </methods>
       </class> <!-- com.assuranceNavigationTests.MousehoverLinkTest -->
     </classes>
